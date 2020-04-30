@@ -2,13 +2,12 @@
 padding:0px;
 margin:0px;
 }
-body{
-height:auto;}
+
 header{
 background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(../2.jpg);
 background-size: cover;
 background-position: center;
-height: 100vh;
+height: 500px;
 
 }
 .topnav{
@@ -19,6 +18,7 @@ background:white;
 
 .btn{
   float: left;
+  background: red;
 }
 
 .search{
@@ -28,6 +28,9 @@ background:white;
 .colr{
 
   text-align: center;
+  margin-top: 100px;
+  color: white;
+  font-family: arial;
 }
 
 .item2 { grid-area: left; border:1px solid black; height:300px;}
